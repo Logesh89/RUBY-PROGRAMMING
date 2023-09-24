@@ -1,0 +1,19 @@
+puts("Enter the number1 ")
+n1=gets.chomp().to_i
+puts("Enter the operator ")
+op=gets.chomp()
+puts("Enter the number2 ")
+n2=gets.chomp().to_i
+
+if(op=="+")
+    puts(n1+n2)
+elsif (op=="-")
+    puts(n1-n2)
+elsif (op=="*")
+    puts(n1*n2)
+elsif (op=="/")
+    puts(n1/n2)
+elsif (op=="%")
+    puts(n1%n2)
+end
+    
