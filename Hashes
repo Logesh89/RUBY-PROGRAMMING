@@ -1,0 +1,7 @@
+states={
+    "pensilvanya"=>"PA",
+    "New york"=>"NY",
+    "Erode"=>"Ee"
+    
+}
+puts states
