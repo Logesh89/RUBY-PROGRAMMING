@@ -1,0 +1,16 @@
+a=" LOGESh "
+print "Prints the length of the variable and stripe removes the spaces : "
+puts a.strip().length()
+puts a
+print "Prints the Boolean(true or false) of the variable : "
+puts a.include? "LOGESh"
+puts a 
+print "Prints the range of the variable : "
+puts a[1,3]
+print "Prints the index of the variable : "
+puts a.index("O")
+num=-20
+print "Prints the absolute value of the number : "
+puts num.abs()
+print "Prints the square root of the number : "
+puts Math.sqrt(36)
