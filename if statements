@@ -1,0 +1,12 @@
+ismale=true
+istall=false
+if ismale and istall
+    puts("Youre tall male")
+elsif ismale and !istall
+    puts("Youre a short male")
+elsif !ismale and istall
+    puts("Youre not male but tall")
+else
+    puts("Youre not male and not tall")
+end
+    
